@@ -118,11 +118,13 @@ nav {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
 }
+
 nav .nav-container {
     display: flex;
     gap: 1rem;
     padding: 0 0.5rem;
 }
+
 .nav-button {
     padding: 0.75rem 1.5rem;
     border: none;
@@ -267,4 +269,18 @@ nav {
         top: 0.5rem;
         right: 0.5rem;
     }
+}
+
+.credits {
+    position: fixed;
+    bottom: 70px;
+    /* Position it above the navigation */
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    opacity: 0.8;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
 }
