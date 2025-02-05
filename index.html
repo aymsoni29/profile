@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="hero">
+        <div>
+            <img src="img/profile-picture.jpg" alt="Profile Picture" class="profile-picture">
+            <h1>Hey there! 👋</h1>
+            <div class="hero-content">
+                <p class="intro-text">
+                    Born roughly a year ago 尾田 栄一郎 Oda Eiichirō published the first chapter of One Piece. I'm one of those last-minute millennials living in the beautiful Bay Area! 
+                    I am a software engineer by profession.
+                </p>
+                <p class="intro-text">
+                    I'm a shy person but once you get to know me, I tend to be more open and fool around.
+                </p>
+                <p class="intro-text">
+                    Feel free to explore my interests below and maybe we'll find something in common 😊
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section id="anime" class="content-section">
+            <button class="back-button">← Back</button>
+            <div class="section-content">
+                <h2>Anime</h2>
+                <p>My journey through Japanese animation has shaped my perspective on storytelling and art.</p>
+            </div>
+        </section>
+
+        <section id="cooking" class="content-section">
+            <button class="back-button">← Back</button>
+            <div class="section-content">
+                <h2>Cooking</h2>
+                <p>Cooking is my way of exploring cultures and expressing creativity.</p>
+            </div>
+        </section>
+
+        <section id="volleyball" class="content-section">
+            <button class="back-button">← Back</button>
+            <div class="section-content">
+                <h2>Volleyball</h2>
+                <p>From casual games to competitive matches, volleyball has taught me teamwork.</p>
+            </div>
+        </section>
+
+        <section id="work" class="content-section">
+            <button class="back-button">← Back</button>
+            <div class="section-content">
+                <h2>Work</h2>
+                <p>My professional journey is driven by a desire to create meaningful impact.</p>
+            </div>
+        </section>
+
+        <section id="aspirations" class="content-section">
+            <button class="back-button">← Back</button>
+            <div class="section-content">
+                <h2>Aspirations</h2>
+                <p>Looking ahead, I'm excited about future opportunities to grow.</p>
+            </div>
+        </section>
+    </main>
+
+    <nav>
+        <button class="nav-button" data-view="anime">Anime</button>
+        <button class="nav-button" data-view="cooking">Cooking</button>
+        <button class="nav-button" data-view="volleyball">Volleyball</button>
+        <button class="nav-button" data-view="work">Work</button>
+        <button class="nav-button" data-view="aspirations">Aspirations</button>
+    </nav>
+
+    <button id="theme-toggle">🌙</button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
