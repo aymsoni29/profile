@@ -115,7 +115,25 @@ nav {
     backdrop-filter: blur(8px);
     display: flex;
     justify-content: center;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+nav .nav-container {
+    display: flex;
     gap: 1rem;
+    padding: 0 0.5rem;
+}
+.nav-button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: inherit;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .nav-button,
@@ -219,4 +237,34 @@ nav {
     font-size: 0.9rem;
     opacity: 0.8;
     line-height: 1.6;
+}
+
+nav::-webkit-scrollbar {
+    display: none;
+}
+
+nav {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+@media (max-width: 768px) {
+    .section-content {
+        padding: 1rem;
+        margin: 2rem auto;
+    }
+
+    .hero {
+        padding: 1rem;
+    }
+
+    .back-button {
+        top: 0.5rem;
+        left: 0.5rem;
+    }
+
+    #theme-toggle {
+        top: 0.5rem;
+        right: 0.5rem;
+    }
 }
