@@ -107,7 +107,7 @@ h1 {
 /* Navigation */
 nav {
     position: fixed;
-    bottom: 0;
+    bottom: 35px;
     left: 0;
     right: 0;
     padding: 1rem;
@@ -273,13 +273,13 @@ nav {
 
 .credits {
     position: fixed;
-    bottom: 70px;
+    bottom: 0;
     /* Position it above the navigation */
     left: 0;
     right: 0;
     text-align: center;
     padding: 0.5rem;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     opacity: 0.8;
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(8px);
